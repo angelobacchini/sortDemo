@@ -44,6 +44,8 @@ class selectionSort : public abstractSort
 public:
   selectionSort(QVector<int>* _array, QMutex* _mutex, QWaitCondition* _resume);
   ~selectionSort();
+  selectionSort(selectionSort const&) = delete;
+  selectionSort& operator=(selectionSort const&) = delete;
 
 private:
   void sort(const int &_lo, const int &_hi);
@@ -56,6 +58,8 @@ class insertionSort : public abstractSort
 public:
   insertionSort(QVector<int>* _array, QMutex* _mutex, QWaitCondition* _resume);
   ~insertionSort();
+  insertionSort(insertionSort const&) = delete;
+  insertionSort& operator=(insertionSort const&) = delete;
 
 private:
   void sort(const int &_lo, const int &_hi);
@@ -68,6 +72,8 @@ class quickSort : public abstractSort
 public:
   quickSort(QVector<int>* _array, QMutex* _mutex, QWaitCondition* _resume);
   ~quickSort();
+  quickSort(quickSort const&) = delete;
+  quickSort& operator=(quickSort const&) = delete;
 
 private:
   void sort(const int &_lo, const int &_hi);
@@ -81,6 +87,8 @@ class mergeSort : public abstractSort
 public:
   mergeSort(QVector<int>* _array, QMutex* _mutex, QWaitCondition* _resume);
   ~mergeSort();
+  mergeSort(mergeSort const&) = delete;
+  mergeSort& operator=(mergeSort const&) = delete;
 
 private:
   void sort(const int &_lo, const int &_hi);

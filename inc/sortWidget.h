@@ -13,6 +13,8 @@ class sortWidget : public QWidget
 public:
   explicit sortWidget(int _numElements, QWidget* _parent = 0);
   virtual ~sortWidget();
+  sortWidget(sortWidget const&) = delete;
+  sortWidget& operator=(sortWidget const&) = delete;
 
 private slots:
   void step();
