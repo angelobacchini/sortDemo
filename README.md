@@ -3,7 +3,7 @@ Sorting algorithms visual display tool.
 
 ![alt text](./sortDemo.png)
 
-## See full description at [angelobacchini.github.io](https://angelobacchini.github.io/software%20projects/sorting-algorithm-demo)
+## See full description at [angelobacchini.github.io](https://angelobacchini.github.io/2017/09/01/sortDemo.html)
 
 ---
 
