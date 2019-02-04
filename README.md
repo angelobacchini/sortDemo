@@ -1,7 +1,7 @@
 # sortDemo
 Sorting algorithms visual display tool.
 
-![[Video](pics/thumb.png)](https://www.youtube.com/watch?v=ZLtREpDUUC4)
+[![Video](pics/thumb.png)](https://youtu.be/ZLtREpDUUC4)
 
 This little toy software provides visual representation of virtually any sorting algorithm based on compare and swap operations.
 
